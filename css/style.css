@@ -1,0 +1,119 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+ul{
+    list-style-type: none;
+}
+a{
+    text-decoration: none;
+    display: inline-block;
+}
+img{
+    vertical-align: middle;
+}
+p,h1,h2,h3,h4,h5,h6{
+    padding: 0;
+    margin: 0;
+}
+.container{
+    width: 1144px;
+}
+/* header */
+header{
+    background: #282828;
+    border-bottom:5px solid #FFB800;
+}
+.header_text a{
+    color: #FFFFFF;
+    padding-right: 30px;
+}
+.header_text a:last-child{
+    padding-left: 20px;
+    border-left: 2px solid white;
+}
+.header_icon a{
+    color: #FFFFFF;
+    padding-left: 20px;
+}
+/* navbar */
+.navbar_menu{
+    background: #F40404;
+    padding: 28px 0;
+}
+.navbar_menu ul li{
+    padding-right: 30px;
+}
+.navbar_menu ul li a{
+    color: #FFFFFF !important;
+    padding-right: 30px;
+}
+.nav_btn{
+    padding: 10px 30px;
+    border: 2px solid #FFFFFF;
+    border-radius: 0;
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    -ms-border-radius: 0;
+    -o-border-radius: 0;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+/* banner */
+#bannner{
+    background: linear-gradient(rgba(0, 0, 0, 0.6),rgba(0, 0, 0, 0.6)), url(../images/banner.jpg) no-repeat center / cover;
+}
+.ban_text h1{
+   font-size: 60px;
+   font-weight: 700;
+   color: #FFFFFF;
+   padding-top: 250px;
+}
+.ban_btn{
+    padding: 14px 40px;
+    color: #FFFFFF;
+    border: 2px solid #FFFFFF;
+    border-radius: 0;
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    -ms-border-radius: 0;
+    -o-border-radius: 0;
+    margin:31px 0 200px 0;
+}
+.ban_btn:hover{
+    background: #F40404;
+    
+    border: 2px solid transparent;
+}
+/* welcome section */
+#welcome{
+    padding: 78px 0 100px 0;
+}
+.wel_heading h3{
+    font-size: 45px;
+    font-weight: 700;
+}
+.wel_txt{
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    color: #6C6C6C;
+}
+
+/* services */
+.ser_text{
+    padding-left: 80px;
+}
+.ser_text h3{
+    font-size: 64px;
+    font-weight: 700;
+}
+
+.ser_text p{
+    padding: 10px 0 0 10px;
+    width: 300px;
+    font-size: 16px;
+    font-weight: 500;
+    color: #6C6C6C;
+}
