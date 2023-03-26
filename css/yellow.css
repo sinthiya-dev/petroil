@@ -24,7 +24,7 @@ p,h1,h2,h3,h4,h5,h6{
 /* header */
 header{
     background: #282828;
-    border-bottom:5px solid #FFB800;
+    border-bottom:5px solid #a17c1e;
 }
 .header_text a{
     color: #FFFFFF;
@@ -40,7 +40,7 @@ header{
 }
 /* navbar */
 .navbar_menu{
-    background: #F40404;
+    background: #F1C40F;
     padding: 28px 0;
 }
 .navbar_menu ul li{
@@ -62,16 +62,14 @@ header{
     color: #FFFFFF;
 }
 /* banner */
-
-.parallax{
-    height: 500px;
-    background: linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5));
+#bannner{
+    background: linear-gradient(rgba(0, 0, 0, 0.6),rgba(0, 0, 0, 0.6)), url(../images/banner.jpg) no-repeat center / cover;
 }
 .ban_text h1{
    font-size: 60px;
    font-weight: 700;
    color: #FFFFFF;
-   padding-top: 80px;
+   padding-top: 250px;
 }
 .ban_btn{
     padding: 14px 40px;
@@ -85,9 +83,9 @@ header{
     margin:31px 0 200px 0;
 }
 .ban_btn:hover{
-    background: #F40404;
+    background: #F1C40F;
+    
     border: 2px solid transparent;
-    color: #FFFFFF;
 }
 /* welcome section */
 #welcome{
@@ -152,7 +150,7 @@ header{
     background: #F0F0F0;
 }
 .about_txt{
-    background: #F40404;
+    background: #F1C40F;
     margin-right: -15px;
 }
 .about_txt h3{
@@ -219,8 +217,8 @@ header{
     color: #000;
 }
 #contact{
-    background: #F40404;
-    border-bottom: 5px solid #FFB800;
+    background: #F1C40F;
+    border-bottom: 5px solid #a17c1e;
 }
 .con_txt h3{
    font-family: 'Poppins';
@@ -249,7 +247,7 @@ footer{
     color:#FFFFFF;
     height:30px;
     width: 30px;
-    background: #F40404;
+    background: #F1C40F;
     border-radius: 50%;
     -webkit-border-radius: 50%;
     -moz-border-radius: 50%;
